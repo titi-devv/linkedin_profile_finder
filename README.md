@@ -1,6 +1,6 @@
-# LinkedIn Profile Scraper 🎯
+# LinkedIn Profiles Finder 🎯
 
-This Python script is a LinkedIn profile scraper that helps you find LinkedIn profiles based on company names and job titles. It utilizes Google Dorks queries to search for LinkedIn profiles and extracts names, job titles, and LinkedIn profile links.
+This Python script finds LinkedIn profiles based on company names and job titles. It uses Google Dorks queries to search for LinkedIn profiles and extracts names, job titles, and LinkedIn profile links.
 
 ## Getting Started 🚀
 
