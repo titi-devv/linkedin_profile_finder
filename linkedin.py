@@ -33,6 +33,9 @@ def extract_info(result):
             if ' - ' in title:
                 position = title.split(' - ')[1]
                 name = title.split(' - ')[0]
+            elif ' – ' in title:
+                position = title.split(' – ')[1]
+                name = title.split(' – ')[0]
             else:
                 name = title
                 if ' | ' in name:
