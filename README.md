@@ -4,33 +4,37 @@ This Python script finds LinkedIn profiles based on company names and job titles
 
 ## Getting Started 🚀
 
-1. **Python Installation:** Ensure you have Python installed on your machine.
+1. **Python Installation:** Install python [here](https://www.python.org/downloads/).
 
-2. **Library Installation:** Install the required libraries by running the following command:
+2. **Clone this repository:** `git clone https://github.com/titi-devv/linkedin_profile_finder.git`
+
+3. **Go in the root folder:** `cd website_urls_finder`
+
+4. **Library Installation:** Install the required libraries by running the following command:
 
    ```bash
    pip install requests beautifulsoup4 httpx pandas
    ```
 
-3. **Prepare Your Data:**
+5. **Prepare Your Data:**
    Create a CSV file containing companies name.
 
 ## Usage 📋
 
-Customize Queries: Customize the queries list with the job titles you want to search for.
+1. **Customize Queries:** Customize the queries list with the job titles you want to search for.
 
 ```bash
 queries = ["CEO", "Digital Marketing Manager", "Product", "Whatever you want"]
 ```
 
-Specify CSV Details: Specify the name of your CSV file and the column where the company names are located.
+2. **Specify CSV Details:** Specify the name of your CSV file and the column where the company names are located.
 
 ```bash
 csv_file = "your_companies.csv"
 companies_name_column = "company_name_column"
 ```
 
-Start Scraping: Run the script to start scraping LinkedIn profiles with the following command:
+3. **Start Scraping:** Run the script to start scraping LinkedIn profiles with the following command:
 
 ```bash
 python linkedin.py
