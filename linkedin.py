@@ -110,7 +110,7 @@ async def main():
     write_companies()
     companies = read_companies_from_file(companies_name_file)
     print(
-        f"🏴‍☠️⚔️ Starting scrapping of {len(companies)} companies")
+        f"⚔️ Starting scrapping of {len(companies)} companies")
     results_json = []
     for company in companies:
         print(
