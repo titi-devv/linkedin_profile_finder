@@ -10,13 +10,13 @@ import json
 import pandas as pd
 
 # HERE: Add the job titles you want to find
-queries = ["CEO", "Digital Marketing Manager", "Product"]
+queries = ["CEO", "Digital Marketing Manager", "Product", "Whatever you want"]
 
 # Enter your CSV file name
-csv_file = "welcome_to_the_jungle.csv"
+csv_file = "your_companies_name.csv"
 
 # Enter the column name of companies name
-companies_name_column = "company_url_pg1"
+companies_name_column = "companies_name_column"
 
 results_file = "linkedin_results.json"
 companies_name_file = "companies_name.json"
