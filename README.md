@@ -8,7 +8,7 @@ This Python script finds LinkedIn profiles based on company names and job titles
 
 2. **Clone this repository:** `git clone https://github.com/titi-devv/linkedin_profile_finder.git`
 
-3. **Go in the root folder:** `cd website_urls_finder`
+3. **Go in the root folder:** `cd linkedin_profile_finder`
 
 4. **Library Installation:** Install the required libraries by running the following command:
 
